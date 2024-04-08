@@ -1,0 +1,22 @@
+.list-of-history {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  list-style-type: none;
+  border-top: none;
+}
+
+.delete-button {
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete-image {
+  width: 25px;
+  height: 25px;
+}
+
+.history-paragraph {
+  width: 30%;
+}

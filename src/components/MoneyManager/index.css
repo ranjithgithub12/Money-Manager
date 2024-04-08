@@ -1,0 +1,131 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  min-height: 100vh;
+}
+
+.app1-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 20px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.person-name {
+  color: #475569;
+  font-size: 30px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.welcome-message {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'roboto';
+}
+
+.welcome-span {
+  color: #0b69ff;
+  font-size: 20px;
+  font-family: 'roboto';
+}
+.total-transcation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .total-transcation-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.add-transcation-container {
+  border: 1px solid #7e858e;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+@media (min-width: 768px) {
+  .add-transcation-container {
+    width: 40%;
+    min-height: 350px;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-content {
+  color: #7e858e;
+  font-size: 15px;
+}
+.input-box {
+  padding: 10px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  border-style: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.history-transction-container {
+  border: 1px solid #7e858e;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+@media (min-width: 768px) {
+  .history-transction-container {
+    width: 50%;
+    min-height: 360px;
+  }
+}
+
+.history-heading {
+  font-family: 'roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.history-content {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+}
+
+.content-types {
+  width: 30%;
+  font-size: 15px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.unorder-list {
+  padding: 00px;
+  margin-top: 00px;
+}
